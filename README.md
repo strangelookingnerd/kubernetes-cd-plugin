@@ -1,5 +1,11 @@
 # Kubernetes Continuous Deploy Plugin
 
+## Distribution suspended
+
+Distribution of the Kubernetes continuous deploy plugin was [suspended 23 Aug 2022](https://github.com/jenkins-infra/update-center2/commit/98872a13a5695ffa34e2dd9d4da025d5090dc0ec) due to unresolved remote code execution vulnerability [SECURITY-2448](https://www.jenkins.io/security/advisory/2022-08-23/#SECURITY-2448).  Distribution of the plugin will not resume until the plugin is adopted and the vulnerability is resolved.
+
+## Overview
+
 A Jenkins plugin to deploy resource configurations to a Kubernetes cluster.
 
 It provides the following features:
